@@ -130,6 +130,8 @@ div .bar{
 
 }
 
+
+
 .contact{
    position: relative;
    top: 600px;
@@ -137,6 +139,14 @@ div .bar{
    margin-left: 80px;
 }
 
+.aboutInfo{
+   display: flex;
+   top: 20px;
+   position: relative;
+   top: 340px;
+   margin-left: 80px;
+   z-index: -1;
+}
 @media (max-width: 860px){
    .info #caleb{
       position: absolute;
@@ -151,8 +161,13 @@ div .bar{
 
 }
 @media (max-width: 760px){
+   *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: sans-serif;
 
-
+   }
    .info{
       display: none;
    }
@@ -167,12 +182,12 @@ div .bar{
       
       position: relative;
       display: flex;
-      left: 150px;
+      left: 15px;
    }
    .sk p{
       display: flex;
       margin-left: 50px;
-      margin: 30px;
+      margin: 15px;
       text-align: center;
    }
 
@@ -180,7 +195,7 @@ div .bar{
       text-align: center;
    }
    .wk img{
-      padding: 30px;
+      padding: 15px;
       
    }
    .navTags h3{
@@ -209,7 +224,7 @@ div .bar{
 
    .minfo h4{
       margin-top: 100px;
-      font-size: 40px;
+      font-size: 20px;
       margin-left: 70px;
    }
 
@@ -219,7 +234,7 @@ div .bar{
       color: #fff;
       padding: 12px;
       width: 150px;
-      font-size: 30px;
+      font-size: 40px;
       background-color: rgb(16, 169, 216);
       margin-left: 70px;
    }
@@ -229,7 +244,7 @@ div .bar{
       padding: 20px;
       display: flex;
       color: #fff;
-      font-size: 30px;
+      font-size: 15px;
       align-items: center;
       list-style: none;
       transition: 0.5s;
@@ -306,5 +321,11 @@ div .bar{
    .toggle #bar-three{
       transform: rotate(45deg) translate(-5px,-9px);
    }
-
+   .aboutInfo{
+      display: flex;
+      top: 18px;
+      position: relative;
+      margin-left: 80px;
+      z-index: -1;
+   }
 }
